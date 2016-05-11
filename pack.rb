@@ -20,6 +20,7 @@ require_relative 'rgss'
   'Data/Troops.yml',
   'Data/Weapons.yml'
 ].each do |yml|
+  puts "Packaging... #{yml}"
   data = ''
   data = YAML.load_file(yml)
   File.open('Data/'+File.basename(yml,'.yml')+'.rvdata2', 'wb') do |file|

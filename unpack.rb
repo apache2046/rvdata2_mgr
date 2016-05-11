@@ -21,6 +21,7 @@ require_relative 'rgss'
   'Data/Weapons.rvdata2'
 ].each do |rvdata2|
   data = ''
+  puts "Unpacking... #{rvdata2}"
   File.open(rvdata2, 'rb') do |file|
     data = Marshal.load(file.read)
   end
