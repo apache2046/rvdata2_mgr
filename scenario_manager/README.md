@@ -18,3 +18,6 @@
 * `wait`: Wait for frame count.
 * `yes`/`no`: Ask Yes or No prompt.
 * `a<num>`: Show actor image.
+* `fadein`/`fadeout`: Screen fade in/out
+* `get_weapon`/`get_item`/`get_wear`..
+*
