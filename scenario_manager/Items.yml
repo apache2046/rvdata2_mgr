@@ -1,0 +1,7 @@
+potion:
+  name: ポーション
+  description: HPを20回復する
+  price: 10
+  effects:
+    recover:
+      hp: 20

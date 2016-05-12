@@ -1,0 +1,5 @@
+wooden_sword:
+  name: 木刀
+  description: 木で出来た刀。物を切る事は出来ないが、相手に強い打撃を与えることが出来る。\r\n物は使いようだ
+  price: 10
+  attack: 2

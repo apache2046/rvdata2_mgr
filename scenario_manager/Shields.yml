@@ -1,0 +1,5 @@
+wooden_shield:
+  name: 木の盾
+  description: 木材で出来た盾。簡単な攻撃を防ぐことは出来る
+  price: 30
+  deffence: 4
